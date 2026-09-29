@@ -19,8 +19,8 @@ node_modules/
 /.playwright/
 /.playwright-cli/
 
-# Configuración local de Claude Code (las skills sí se comparten)
-.claude/settings.local.json
+# Carpeta de Claude Code
+.claude
 
 # Logs y sistema operativo
 *.log
