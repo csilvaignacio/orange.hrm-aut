@@ -11,3 +11,22 @@ node_modules/
 .env
 .env.*
 !.env.example
+
+# Estado de sesión/autenticación de Playwright (contiene tokens/cookies)
+/playwright/auth/
+
+# Artefactos de playwright-cli y navegador
+/.playwright/
+/.playwright-cli/
+
+# Configuración local de Claude Code (las skills sí se comparten)
+.claude/settings.local.json
+
+# Logs y sistema operativo
+*.log
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
